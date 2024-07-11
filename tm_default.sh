@@ -9,13 +9,14 @@
 DISK_GB_REQUIRED=48
 
 PIP_PACKAGES=(
-
+    aria2c
+    iperf
 )
 
 EXTENSIONS=(
     "https://github.com/Mikubill/sd-webui-controlnet"
     "https://github.com/d8ahazard/sd_dreambooth_extension"
-    "https://github.com/deforum-art/sd-webui-deforum"
+    # "https://github.com/deforum-art/sd-webui-deforum"
     "https://github.com/adieyal/sd-dynamic-prompts"
     "https://github.com/ototadana/sd-face-editor"
     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
@@ -24,12 +25,12 @@ EXTENSIONS=(
     "https://github.com/Gourieff/sd-webui-reactor"
     "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete"
     "https://github.com/BlafKing/sd-civitai-browser-plus"
-    "https://github.com/nonnonstop/sd-webui-3d-open-pose-editor"
+    # "https://github.com/nonnonstop/sd-webui-3d-open-pose-editor"
     "https://github.com/zanllp/sd-webui-infinite-image-browsing"
     "https://github.com/Physton/sd-webui-prompt-all-in-one"
     "https://github.com/AUTOMATIC1111/stable-diffusion-webui-pixelization"
     "https://github.com/ArtVentureX/sd-webui-agent-scheduler"
-    "https://github.com/dvruette/sd-webui-fabric"
+    # "https://github.com/dvruette/sd-webui-fabric"
 
 )
 CHECKPOINT_MODELS=(
@@ -51,7 +52,7 @@ CHECKPOINT_MODELS=(
     # "https://civitai.com/api/download/models/95489"
 
     # dreamshaper xl
-    # "https://civitai.com/api/download/models/351306"
+    "https://civitai.com/api/download/models/351306"
 
     # pony xl
     # "https://civitai.com/api/download/models/290640"
