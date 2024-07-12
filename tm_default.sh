@@ -13,86 +13,86 @@ PIP_PACKAGES=(
     iperf
 )
 
-EXTENSIONS=(
-    "https://github.com/Mikubill/sd-webui-controlnet"
-    "https://github.com/d8ahazard/sd_dreambooth_extension"
-    # "https://github.com/deforum-art/sd-webui-deforum"
-    "https://github.com/adieyal/sd-dynamic-prompts"
-    "https://github.com/ototadana/sd-face-editor"
-    "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
-    "https://github.com/hako-mikan/sd-webui-regional-prompter"
-    "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
-    "https://github.com/Gourieff/sd-webui-reactor"
-    "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete"
-    "https://github.com/BlafKing/sd-civitai-browser-plus"
-    # "https://github.com/nonnonstop/sd-webui-3d-open-pose-editor"
-    "https://github.com/zanllp/sd-webui-infinite-image-browsing"
-    "https://github.com/Physton/sd-webui-prompt-all-in-one"
-    "https://github.com/AUTOMATIC1111/stable-diffusion-webui-pixelization"
-    "https://github.com/ArtVentureX/sd-webui-agent-scheduler"
-    # "https://github.com/dvruette/sd-webui-fabric"
+# EXTENSIONS=(
+#     "https://github.com/Mikubill/sd-webui-controlnet"
+#     "https://github.com/d8ahazard/sd_dreambooth_extension"
+#     # "https://github.com/deforum-art/sd-webui-deforum"
+#     "https://github.com/adieyal/sd-dynamic-prompts"
+#     "https://github.com/ototadana/sd-face-editor"
+#     "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
+#     "https://github.com/hako-mikan/sd-webui-regional-prompter"
+#     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
+#     "https://github.com/Gourieff/sd-webui-reactor"
+#     "https://github.com/DominikDoom/a1111-sd-webui-tagcomplete"
+#     "https://github.com/BlafKing/sd-civitai-browser-plus"
+#     # "https://github.com/nonnonstop/sd-webui-3d-open-pose-editor"
+#     "https://github.com/zanllp/sd-webui-infinite-image-browsing"
+#     "https://github.com/Physton/sd-webui-prompt-all-in-one"
+#     "https://github.com/AUTOMATIC1111/stable-diffusion-webui-pixelization"
+#     "https://github.com/ArtVentureX/sd-webui-agent-scheduler"
+#     # "https://github.com/dvruette/sd-webui-fabric"
 
-)
-CHECKPOINT_MODELS=(
-    #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
-    #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
-    #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
-    #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
+# )
+# CHECKPOINT_MODELS=(
+#     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
+#     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
+#     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
+#     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
 
-    # dreamshaper 15
-    # "https://civitai.com/api/download/models/128713"
+#     # dreamshaper 15
+#     # "https://civitai.com/api/download/models/128713"
 
-    # dreamshaper pixel art
-    # "https://civitai.com/api/download/models/142421"
+#     # dreamshaper pixel art
+#     # "https://civitai.com/api/download/models/142421"
 
-    # dreamshaper merged with tfmcartoons
-    # "https://civitai.com/api/download/models/36366"
+#     # dreamshaper merged with tfmcartoons
+#     # "https://civitai.com/api/download/models/36366"
 
-    # anylora sd1.5
-    # "https://civitai.com/api/download/models/95489"
+#     # anylora sd1.5
+#     # "https://civitai.com/api/download/models/95489"
 
-    # dreamshaper xl
-    "https://civitai.com/api/download/models/351306"
+#     # dreamshaper xl
+#     "https://civitai.com/api/download/models/351306"
 
-    # pony xl
-    # "https://civitai.com/api/download/models/290640"
-)
+#     # pony xl
+#     # "https://civitai.com/api/download/models/290640"
+# )
 
-LORA_MODELS=(
-    #"https://civitai.com/api/download/models/16576"
-)
+# LORA_MODELS=(
+#     #"https://civitai.com/api/download/models/16576"
+# )
 
-VAE_MODELS=(
-    "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
-    "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
-    #"https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
-)
+# VAE_MODELS=(
+#     "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
+#     "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
+#     #"https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
+# )
 
-ESRGAN_MODELS=(
-    "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
-    "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
-    "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
-)
+# ESRGAN_MODELS=(
+#     "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
+#     "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
+#     "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
+# )
 
-CONTROLNET_MODELS=(
-    # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
-    # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_hed-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_mlsd-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_normal-fp16.safetensors"
-    # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors"
-    # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_scribble-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_seg-fp16.safetensors"
-    # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_canny-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_color-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_depth-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_keypose-fp16.safetensors"
-    # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_openpose-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors"
-    # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
-    # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
-    "https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors"
-)
+# CONTROLNET_MODELS=(
+#     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
+#     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
+#     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_hed-fp16.safetensors"
+#     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_mlsd-fp16.safetensors"
+#     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_normal-fp16.safetensors"
+#     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors"
+#     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_scribble-fp16.safetensors"
+#     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_seg-fp16.safetensors"
+#     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_canny-fp16.safetensors"
+#     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_color-fp16.safetensors"
+#     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_depth-fp16.safetensors"
+#     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_keypose-fp16.safetensors"
+#     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_openpose-fp16.safetensors"
+#     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors"
+#     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
+#     # "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
+#     "https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors"
+# )
 
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
